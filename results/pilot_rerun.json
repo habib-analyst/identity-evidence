@@ -1,0 +1,210 @@
+{
+  "bootstrap_resamples": 500,
+  "n": {
+    "passage_per_level": 40,
+    "positive": 60,
+    "strong": 60,
+    "weak": 60
+  },
+  "passage": {
+    "0.0": {
+      "blinded": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "n": 40,
+        "point": 1.0,
+        "resamples": 500
+      },
+      "gap": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n": 40,
+        "point": 0.0,
+        "resamples": 500
+      },
+      "named": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "n": 40,
+        "point": 1.0,
+        "resamples": 500
+      }
+    },
+    "0.33": {
+      "blinded": {
+        "ci95": [
+          0.7,
+          0.95
+        ],
+        "n": 40,
+        "point": 0.825,
+        "resamples": 500
+      },
+      "gap": {
+        "ci95": [
+          0.04999999999999993,
+          0.25
+        ],
+        "n": 40,
+        "point": 0.15000000000000002,
+        "resamples": 500
+      },
+      "named": {
+        "ci95": [
+          0.925,
+          1.0
+        ],
+        "n": 40,
+        "point": 0.975,
+        "resamples": 500
+      }
+    },
+    "0.66": {
+      "blinded": {
+        "ci95": [
+          0.375,
+          0.7
+        ],
+        "n": 40,
+        "point": 0.55,
+        "resamples": 500
+      },
+      "gap": {
+        "ci95": [
+          0.125,
+          0.4
+        ],
+        "n": 40,
+        "point": 0.2749999999999999,
+        "resamples": 500
+      },
+      "named": {
+        "ci95": [
+          0.7,
+          0.925
+        ],
+        "n": 40,
+        "point": 0.825,
+        "resamples": 500
+      }
+    },
+    "1.0": {
+      "blinded": {
+        "ci95": [
+          0.15,
+          0.4
+        ],
+        "n": 40,
+        "point": 0.275,
+        "resamples": 500
+      },
+      "gap": {
+        "ci95": [
+          0.37499999999999994,
+          0.675
+        ],
+        "n": 40,
+        "point": 0.525,
+        "resamples": 500
+      },
+      "named": {
+        "ci95": [
+          0.65,
+          0.9
+        ],
+        "n": 40,
+        "point": 0.8,
+        "resamples": 500
+      }
+    }
+  },
+  "positive_control": {
+    "ci95": [
+      0.8833333333333333,
+      1.0
+    ],
+    "n": 60,
+    "point": 0.95,
+    "resamples": 500
+  },
+  "recall_probe": {
+    "contrast": 0.8,
+    "strong_accuracy": 0.0,
+    "strong_answered": 0,
+    "strong_n": 60,
+    "weak_accuracy": 0.8,
+    "weak_answered": 48,
+    "weak_n": 60
+  },
+  "seed": 120001,
+  "strong": {
+    "blinded": {
+      "ci95": [
+        0.8833333333333333,
+        1.0
+      ],
+      "n": 60,
+      "point": 0.95,
+      "resamples": 500
+    },
+    "gap": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "n": 60,
+      "point": 0.0,
+      "resamples": 500
+    },
+    "named": {
+      "ci95": [
+        0.8833333333333333,
+        1.0
+      ],
+      "n": 60,
+      "point": 0.95,
+      "resamples": 500
+    }
+  },
+  "weak": {
+    "blinded": {
+      "ci95": [
+        0.0,
+        0.08333333333333333
+      ],
+      "n": 60,
+      "point": 0.03333333333333333,
+      "resamples": 500
+    },
+    "gap": {
+      "ci95": [
+        0.65,
+        0.8833333333333333
+      ],
+      "n": 60,
+      "point": 0.7833333333333333,
+      "resamples": 500
+    },
+    "named": {
+      "ci95": [
+        0.7166666666666667,
+        0.9
+      ],
+      "n": 60,
+      "point": 0.8166666666666667,
+      "resamples": 500
+    },
+    "telemetry": {
+      "blinded_recall_attempts": 60,
+      "blinded_recall_hits": 0,
+      "named_recall_attempts": 60,
+      "named_recall_hits": 48
+    }
+  }
+}
